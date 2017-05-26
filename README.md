@@ -1,5 +1,10 @@
 # bower-web-tool
 Web sites are made of lots of things — frameworks, libraries, assets, and utilities. Bower manages all these things for we.
+Bower is a package manager for the web. If you’re not sure what package managers are, you’re gonna learn what they are and how useful they can be.
+Installing Bower
+To install bower, you need to have node.js installed on your computer. To check whether you have it or not, open up your command line interface (CLI) and type
+
+node -v
 
 Keeping track of all these packages and making sure they are up to date (or set to the specific versions we need) is tricky. Bower to the rescue!
 Bower can manage components that contain HTML, CSS, JavaScript, fonts or even image files. Bower doesn’t concatenate or minify code or do anything else - it just installs the right versions of the packages we need and their dependencies.
